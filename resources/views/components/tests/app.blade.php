@@ -17,8 +17,12 @@
   <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 <body>
+  <header>
+    <!-- 名前付きslot -->
+    {{ $header }}
+  </header>
   <div class="font-sans text-gray-900 antialiased">
-    <!-- {{ $slot }}の中に値が入る -->
+    <!-- $slot の中に値が入る -->
     {{ $slot }}
   </div>
 </body>

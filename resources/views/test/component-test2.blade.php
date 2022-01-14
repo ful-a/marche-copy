@@ -1,4 +1,6 @@
 <x-tests.app>
-  <!-- {{ $slot }}の中に値が入る -->
+  <x-slot name="header">
+    header 2
+  </x-slot>
   コンポーネントテスト２
 </x-tests.app>
