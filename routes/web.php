@@ -26,10 +26,10 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
-// ↓追記: コントローラーのテスト
+// ↓追記: コントローラーの追加
 
 // コントローラーを制作するコマンド
-// Routeと
+// 7行目useと37.38行目Routeを書いた後
 // php artisan make:controller コントローラー名
 
 // Routeの設定
